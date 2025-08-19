@@ -11,13 +11,13 @@ export const createDepartment = (department) => {
 };
 
 export const getDepartmentById = (id) => {
-  return axios.get(REST_API_URL + "/" + id);
+  return axios.get(`${REST_API_URL}/${id}`); // Use template literal for better readability
 };
 
 export const updateDeparment = (id, department) => {
-  return axios.put(REST_API_URL + "/" + id, department);
+  return axios.put(`${REST_API_URL}/${id}`, department);
 };
 
 export const deleteDepartment = (id) => {
-  return axios.delete(REST_API_URL + "/" + id);
+  return axios.delete(`${REST_API_URL}/${id}`);
 };

@@ -12,7 +12,7 @@ import java.util.List;
 @CrossOrigin("*")
 @RestController
 @RequestMapping("/api/departments")
-@RequiredArgsConstructor // replaces @AllArgsConstructor + @Autowired
+@RequiredArgsConstructor
 public class DepartmentController {
 
     private final DepartmentService departmentService;
@@ -42,8 +42,8 @@ public class DepartmentController {
     }
 
     @DeleteMapping("{id}")
-    public ResponseEntity<String> deleteDepartment(@PathVariable Long id) {
+    public ResponseEntity<Void> deleteDepartment(@PathVariable Long id) {
         departmentService.deleteDepartment(id);
-        return ResponseEntity.ok("Department deleted successfully");
+        return ResponseEntity.noContent().build(); // 204 No Content
     }
 }
