@@ -1,4 +1,4 @@
-```markdown
+
 # Student Management System 📚
 
 A Full-stack web application built using **React** and **Spring Boot** for managing student records efficiently. The Student Management System allows users to add, update, and delete student information, along with their respective departments. This system ensures seamless communication between the frontend and backend, providing a user-friendly interface to manage student details.
@@ -7,7 +7,7 @@ A Full-stack web application built using **React** and **Spring Boot** for manag
 
 ## Tech Stack 🖥
 
-- **Client:** React, Bootstrap, React Router, Axios, Toast Notifications Library  
+- **Client:** React, TailWind CSS, React Router, Axios, Toast Notifications Library  
 - **Server:** Spring Boot, Spring JPA, Spring Web, MySQL  
 
 ---
@@ -28,10 +28,10 @@ A Full-stack web application built using **React** and **Spring Boot** for manag
 
 ## Screenshots 🎞
 
-![Dashboard](https://private-user-images.githubusercontent.com/57297709/260174098-c653dede-2d3b-4301-a074-48a9daf201b9.png)  
-![Student List](https://private-user-images.githubusercontent.com/57297709/260174112-49a269d1-1f95-4199-bbf4-f315fec957d5.png)  
-![Add Student](https://private-user-images.githubusercontent.com/57297709/260174115-6eae9e41-a16f-43fe-b748-fdb63d74e850.png)  
-![Department List](https://private-user-images.githubusercontent.com/57297709/260174121-30c8b70e-f0a0-445f-ae72-788a7a23e8a8.png)  
+![Dashboard](Resources/add_dep.png)  
+![Add Student](Resources/add_std.png)  
+![Department List](Resources/dept.png)  
+![Student List](Resources/students.png)  
 
 ---
 
@@ -46,7 +46,7 @@ A Full-stack web application built using **React** and **Spring Boot** for manag
 
 1. **Clone the repository**  
    ```
-   git clone https://github.com/LuisSalas94/Student-Management-System
+   git clone https://github.com/shivammiyyy/Student_Management_System
    ```
 
 2. **Setup MySQL database**  
@@ -94,14 +94,8 @@ A Full-stack web application built using **React** and **Spring Boot** for manag
    - Backend runs on default port `8080`.  
    - Frontend runs by default on port `3000` (or `5137` if customized).  
    - Open your web browser and go to:  
-     ```
-     http://localhost:3000
-     ```
-     or  
-     ```
      http://localhost:5137
-     ```
-     (depending on your frontend port configuration)  
+     
 
 ---
 
@@ -120,4 +114,4 @@ This Student Management System is a great starting point to build more complex e
 **Enjoy managing your student data with ease!**  
 ```
 
-[1] https://github.com/LuisSalas94/Full-Stack-React-Spring-Boot-Student-Management-System/tree/main
+=
